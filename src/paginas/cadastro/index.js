@@ -1,17 +1,31 @@
-import { Text,View } from "react-native";
+import { Text, TextInput, View } from "react-native";
+import { styles } from "./styles";
 
+export default function Cadastrar() {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}>CADASTRAR ALUNO</Text>
 
-export default function Cadastrar(){
+      <View style={styles.form}>
+        <Text style={styles.label}>Nome</Text>
+        <TextInput style={styles.input} />
+      </View>
 
-    return(
+      <View style={styles.form}>
+        <Text style={styles.label}>Nome</Text>
+        <TextInput style={styles.input} />
+      </View>
 
-        <View>
+      <View style={styles.form}>
+        <Text style={styles.label}>Nome</Text>
+        <TextInput style={styles.input} />
+      </View>
 
-            <Text>CADASTRAR </Text>
-        </View>
+      <View style={styles.form}>
+        <Text style={styles.label}>Nome</Text>
+        <TextInput style={styles.input} />
+      </View>
 
-
-
-    );
-
+    </View>
+  );
 }
